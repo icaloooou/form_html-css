@@ -1,0 +1,53 @@
+
+        body {
+            background-color: #eeeeee;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color: #8888ff;
+        }
+        label, input {
+            display: block;
+            width: 100%;
+        }
+        label, fieldset, button {
+            margin-top: 0.7em;
+        }
+        select, textarea, input {
+            width: 100%;
+        }
+        fieldset label, fieldset input {
+            display: inline;
+            width: auto;
+            margin-top: auto;
+        }
+        fieldset label {
+            margin-left: 1em;
+        }
+        @media screen and (max-width: 300px) {
+            fieldset span {
+                display: block;
+                margin-left: auto;
+                margin-top: 0.1em;
+                margin-bottom: 0.1em;
+            }
+        }
+        .enviar {
+            background-color: green;
+            color: white;
+        }
+        .resetar {
+            background-color: red;
+            color: white;
+        }
+        .redonda {
+            border-radius: 1em;
+            display: inline;
+            border: 0;
+            padding: 0.4em;
+            font-weight: 500;
+        }
+        .buttons {
+            text-align: center;
+        }
